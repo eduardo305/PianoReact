@@ -1,2 +1,0 @@
-# PianoReact
-Created with CodeSandbox

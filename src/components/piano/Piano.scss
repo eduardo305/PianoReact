@@ -1,0 +1,39 @@
+.piano {
+  width: 854px;
+  border-color: #222;
+  border-width: 0px 0px 20px 30px;
+  border-style: solid;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  // transform: scale(0.8);
+
+  .dashboard {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    height: 200px;
+
+    .logo {
+      color: #aaa;
+      font-size: 26px;
+      margin: 0 30px;
+      font-weight: bold;
+    }
+
+    &__controls {
+      display: inline-flex;
+
+      li:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .keyboard {
+    display: flex;
+    border-top: 15px solid rgb(206, 28, 28);
+    margin: 0;
+    padding: 0;
+    width: 854px;
+  }
+}
